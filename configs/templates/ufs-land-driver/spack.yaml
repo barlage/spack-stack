@@ -1,0 +1,21 @@
+spack:
+  config:
+    install_tree:
+      root: $env/install
+    deprecated: true
+  modules:
+    default:
+      roots:
+        lmod: $env/install/modulefiles
+
+  view: false
+  include:
+  - site
+  concretizer:
+    unify: true
+
+  specs:
+    - base-env
+    - nco@4.9.1
+    - ncview@2.1.9
+    - ncview@6.6.2

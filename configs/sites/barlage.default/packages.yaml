@@ -1,0 +1,7 @@
+packages:
+  cairo:
+    variants: ~png ~svg
+  git:
+    buildable: false
+  libiconv:
+    buildable: false
