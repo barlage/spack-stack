@@ -18,4 +18,4 @@ spack:
     - base-env
     - nco@4.9.1
     - ncview@2.1.9
-    - ncview@6.6.2
+    - ncl@6.6.2
