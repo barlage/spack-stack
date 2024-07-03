@@ -15,7 +15,7 @@ spack:
     unify: true
 
   specs:
-    - base-env
-    - nco@4.9.1
+    - netcdf-fortran
+    - nccmp
+    - nco
     - ncview@2.1.9
-    - ncl@6.6.2
