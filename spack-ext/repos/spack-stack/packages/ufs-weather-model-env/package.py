@@ -31,7 +31,7 @@ class UfsWeatherModelEnv(BundlePackage):
     depends_on("crtm@2.4.0.1", type="run")
     depends_on("g2", type="run")
     depends_on("g2tmpl", type="run")
-    depends_on("ip", type="run")
+    depends_on("ip@4.3.0", type="run")
     depends_on("sp", type="run", when="^ip@:4")
     depends_on("w3emc", type="run")
     depends_on("scotch", type="run")
